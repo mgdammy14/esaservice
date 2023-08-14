@@ -1,0 +1,12 @@
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\bin\Debug\net6.0\ApiModel.deps.json
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\bin\Debug\net6.0\ApiModel.dll
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\bin\Debug\net6.0\ApiModel.pdb
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\obj\Debug\net6.0\ApiModel.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\obj\Debug\net6.0\ApiModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\obj\Debug\net6.0\ApiModel.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\obj\Debug\net6.0\ApiModel.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\obj\Debug\net6.0\ApiModel.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\obj\Debug\net6.0\ApiModel.dll
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\obj\Debug\net6.0\refint\ApiModel.dll
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\obj\Debug\net6.0\ApiModel.pdb
+C:\Users\Usuario\source\repos\BACK-ESA\ApiModel\obj\Debug\net6.0\ref\ApiModel.dll

@@ -9,5 +9,6 @@ namespace ApiBusinessLogic.Interfaces.TipoEncuesta
     public interface ITipoEncuestaLogic
     {
         public List<ApiModel.TipoEncuesta.TipoEncuesta> GetTipoEncuesta();
+        public bool InsertTipoEncuesta(ApiModel.TipoEncuesta.TipoEncuesta tipoEncuesta);
     }
 }

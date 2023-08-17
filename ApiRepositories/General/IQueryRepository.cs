@@ -18,5 +18,6 @@ namespace ApiRepositories.General
         public List<Periodo> GetByUnidadAcademica(string UnidadAcademica);
         public List<EncuestaQuery> GetEncuestaById(int IdEncuesta);
         public List<Master> GetMasterById(int listId);
+        public List<EncuestaDTO> GetAllEncuesta(EncuestaFilter encuestaFilter);
     }
 }

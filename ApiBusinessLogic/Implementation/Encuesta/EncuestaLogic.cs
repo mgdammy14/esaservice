@@ -41,5 +41,29 @@ namespace ApiBusinessLogic.Implementation.Encuesta
                 throw ex;
             }
         }
+
+        public bool InsertEncuesta(ApiModel.Encuestas.Encuesta encuesta)
+        {
+            try
+            {
+                return _unitOfWork.ICommand.InsertarEncuesta(encuesta);
+            }
+            catch(Exception e) 
+            {
+                throw e;
+            }
+        }
+
+        public List<EncuestaDTO> GetAllEncuesta(EncuestaFilter encuestaFilter)
+        {
+            try
+            {
+                return _unitOfWork.IQuery.GetAllEncuesta(encuestaFilter);
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+        }
     }
 }

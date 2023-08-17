@@ -592,23 +592,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\MetricaAndina\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\BACK-ESA\\ApiDataAccess\\ApiDataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiDataAccess\\ApiDataAccess.csproj",
       "projectName": "ApiDataAccess",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\BACK-ESA\\ApiDataAccess\\ApiDataAccess.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\source\\repos\\BACK-ESA\\ApiDataAccess\\obj\\",
+      "projectPath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiDataAccess\\ApiDataAccess.csproj",
+      "packagesPath": "C:\\Users\\MetricaAndina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiDataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MetricaAndina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -617,18 +617,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\source\\repos\\BACK-ESA\\ApiRepositories\\ApiRepositories.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\source\\repos\\BACK-ESA\\ApiRepositories\\ApiRepositories.csproj"
+            "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiRepositories\\ApiRepositories.csproj": {
+              "projectPath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiRepositories\\ApiRepositories.csproj"
             },
-            "C:\\Users\\Usuario\\source\\repos\\BACK-ESA\\ApiUnitOfWork\\ApiUnitOfWork.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\source\\repos\\BACK-ESA\\ApiUnitOfWork\\ApiUnitOfWork.csproj"
+            "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiUnitOfWork\\ApiUnitOfWork.csproj": {
+              "projectPath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiUnitOfWork\\ApiUnitOfWork.csproj"
             }
           }
         }
@@ -668,7 +667,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

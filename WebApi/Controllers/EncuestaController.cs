@@ -51,5 +51,38 @@ namespace WebApi.Controllers
                 return BadRequest(response);
             }
         }
+
+        [HttpPost]
+        public IActionResult InsertarEncuesta([FromBody] Encuesta encuesta)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.InsertEncuesta(encuesta));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost]
+        [Route("filtrar")]
+        public IActionResult GetAll([FromBody] EncuestaFilter encuestaFilter)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.GetAllEncuesta(encuestaFilter));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
     }
 }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KxNvAv9tpAlh6jG2cC9F5I1JD4ZddbkDMcYVs1Zthxs7IVKDBR+28u+OXD2FRBbt+Yw2AY7HNOnDWZTjp8OLRA==",
+  "dgSpecHash": "25/n5CkgQs4QNLlVYQXIj+kRQXDVJmpRD9yK6MZKjySpSIk2CITclS2xdPaXYiMbX79cXs7J9XFwuuaHcB5PoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\BACK-ESA\\ApiRepositories\\ApiRepositories.csproj",
+  "projectFilePath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiRepositories\\ApiRepositories.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuario\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
+    "C:\\Users\\MetricaAndina\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
+    "C:\\Users\\MetricaAndina\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
   ],
   "logs": []
 }

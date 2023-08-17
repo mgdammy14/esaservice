@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Iuvk3Pv3cPvzwE6VEjMffZsWIYk9pdh+6w36IikV6ew=",
+  "Source": "ESAMicroservicesApi",
+  "BasePath": "_content/ESAMicroservicesApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

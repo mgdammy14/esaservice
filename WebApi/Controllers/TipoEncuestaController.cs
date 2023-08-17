@@ -1,6 +1,7 @@
 ﻿using ApiBusinessLogic.Interfaces.Poblacion;
 using ApiBusinessLogic.Interfaces.TipoEncuesta;
 using ApiModel.ResponseDTO.General;
+using ApiModel.TipoEncuesta;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
@@ -24,6 +25,22 @@ namespace WebApi.Controllers
             try
             {
                 var response = _responseDTO.Success(_responseDTO, _logic.GetTipoEncuesta());
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Insert([FromBody] TipoEncuesta tipoEncuesta)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.InsertTipoEncuesta(tipoEncuesta));
                 return Ok(response);
             }
             catch (Exception e)

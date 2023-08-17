@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "X1Oz7WzmysdxPVY5cJVzubMuCbhsihGgpHSEpzcZbV59LyelgLiNOwhnI27dzaZLW8L67ejOcLVwfJJ8mmkCyA==",
+  "dgSpecHash": "TKmLmEsGnpm21uGPi+gYTrK8JFj8/jbMQah1KY+SDDl9P9EW1xLzt6/wjkZZsuIZvH/GIexZe/ttVxgl9VzEmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\BACK-ESA\\ApiBusinessLogic\\ApiBusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiBusinessLogic\\ApiBusinessLogic.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuario\\.nuget\\packages\\awssdk.core\\3.7.200.16\\awssdk.core.3.7.200.16.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\awssdk.s3\\3.7.201.14\\awssdk.s3.3.7.201.14.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
+    "C:\\Users\\MetricaAndina\\.nuget\\packages\\awssdk.core\\3.7.200.16\\awssdk.core.3.7.200.16.nupkg.sha512",
+    "C:\\Users\\MetricaAndina\\.nuget\\packages\\awssdk.s3\\3.7.201.14\\awssdk.s3.3.7.201.14.nupkg.sha512",
+    "C:\\Users\\MetricaAndina\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\MetricaAndina\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
+    "C:\\Users\\MetricaAndina\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
   ],
   "logs": []
 }

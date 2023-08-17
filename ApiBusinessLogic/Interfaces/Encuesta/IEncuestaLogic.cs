@@ -11,5 +11,7 @@ namespace ApiBusinessLogic.Interfaces.Encuesta
     {
         public List<EncuestaQuery> GetEncuestaById(int IdEncuesta);
         public bool ActivarEncuesta(EncuestaActivacion encuesta);
+        public bool InsertEncuesta(ApiModel.Encuestas.Encuesta encuesta);
+        public List<EncuestaDTO> GetAllEncuesta(EncuestaFilter encuestaFilter);
     }
 }

@@ -100,5 +100,24 @@ namespace ApiDataAccess.General
                     .ToList();
             }
         }
+
+        public List<EncuestaDTO> GetAllEncuesta(EncuestaFilter encuestaFilter)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                var parameters = new DynamicParameters();
+                parameters.Add("@IdTipoEncuesta", encuestaFilter.IdTipoEncuesta);
+                parameters.Add("@Periodo", encuestaFilter.Periodo);
+                parameters.Add("@Programa", encuestaFilter.Programa);
+
+                return connection.Query<EncuestaDTO>(
+                    "PA_ESA_GET_LIST_ENCUESTA",
+                    parameters,
+                    commandType: CommandType.StoredProcedure)
+                    .ToList();
+            }
+        }
     }
 }

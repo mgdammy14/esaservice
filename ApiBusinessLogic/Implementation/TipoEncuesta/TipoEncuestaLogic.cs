@@ -1,4 +1,5 @@
 ﻿using ApiBusinessLogic.Interfaces.TipoEncuesta;
+using ApiModel.TipoEncuesta;
 using ApiUnitOfWork.General;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,18 @@ namespace ApiBusinessLogic.Implementation.TipoEncuesta
                 return _unitOfWork.IQuery.GetTipoEncuesta();
             }
             catch(Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public bool InsertTipoEncuesta(ApiModel.TipoEncuesta.TipoEncuesta tipoEncuesta)
+        {
+            try
+            {
+                return _unitOfWork.ICommand.InsertarTipoEncuesta(tipoEncuesta);
+            }
+            catch (Exception e)
             {
                 throw e;
             }

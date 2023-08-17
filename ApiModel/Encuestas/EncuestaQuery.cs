@@ -78,4 +78,28 @@ namespace ApiModel.Encuestas
         public string Descripcion { get; set; }
         public string Periodo { get; set; }
     }
+
+    public class EncuestaFilter
+    {
+        public int IdTipoEncuesta { get; set; }
+        public string Periodo { get; set; }
+        public string Programa { get; set; }
+        public string Modalidad { get; set; }
+    }
+
+    public class EncuestaDTO
+    {
+        public int IdEncuesta { get; set; }
+        public int IdTipoEncuesta { get; set; }
+        public string TipoEncuesta { get; set; }
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
+        public string Periodo { get; set; }
+        public string Programa { get; set; }
+        public string Modalidad { get; set; }
+        public string FechaInicio { get; set; }
+        public string FechaFin { get; set; }
+        public bool Estado { get; set; }
+        public int Avance { get; set; }
+    }
 }

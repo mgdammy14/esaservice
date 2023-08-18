@@ -32,3 +32,20 @@ C:\Users\MetricaAndina\Desktop\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnit
 C:\Users\MetricaAndina\Desktop\esaservice\ApiUnitOfWork\obj\Debug\net6.0\refint\ApiUnitOfWork.dll
 C:\Users\MetricaAndina\Desktop\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnitOfWork.pdb
 C:\Users\MetricaAndina\Desktop\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ref\ApiUnitOfWork.dll
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\bin\Debug\net6.0\ApiUnitOfWork.deps.json
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\bin\Debug\net6.0\ApiUnitOfWork.dll
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\bin\Debug\net6.0\ApiUnitOfWork.pdb
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\bin\Debug\net6.0\ApiModel.dll
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\bin\Debug\net6.0\ApiRepositories.dll
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\bin\Debug\net6.0\ApiRepositories.pdb
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\bin\Debug\net6.0\ApiModel.pdb
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnitOfWork.csproj.AssemblyReference.cache
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnitOfWork.AssemblyInfoInputs.cache
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnitOfWork.AssemblyInfo.cs
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnitOfWork.csproj.CoreCompileInputs.cache
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnitOfWork.csproj.CopyComplete
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnitOfWork.dll
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\refint\ApiUnitOfWork.dll
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ApiUnitOfWork.pdb
+C:\Repositorio UPN\esaservice\ApiUnitOfWork\obj\Debug\net6.0\ref\ApiUnitOfWork.dll

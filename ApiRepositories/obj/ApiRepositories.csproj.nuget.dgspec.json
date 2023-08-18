@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiRepositories\\ApiRepositories.csproj": {}
+    "C:\\Repositorio UPN\\esaservice\\ApiRepositories\\ApiRepositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiModel\\ApiModel.csproj": {
+    "C:\\Repositorio UPN\\esaservice\\ApiModel\\ApiModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiModel\\ApiModel.csproj",
+        "projectUniqueName": "C:\\Repositorio UPN\\esaservice\\ApiModel\\ApiModel.csproj",
         "projectName": "ApiModel",
-        "projectPath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiModel\\ApiModel.csproj",
-        "packagesPath": "C:\\Users\\MetricaAndina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiModel\\obj\\",
+        "projectPath": "C:\\Repositorio UPN\\esaservice\\ApiModel\\ApiModel.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositorio UPN\\esaservice\\ApiModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MetricaAndina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,24 +70,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiRepositories\\ApiRepositories.csproj": {
+    "C:\\Repositorio UPN\\esaservice\\ApiRepositories\\ApiRepositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiRepositories\\ApiRepositories.csproj",
+        "projectUniqueName": "C:\\Repositorio UPN\\esaservice\\ApiRepositories\\ApiRepositories.csproj",
         "projectName": "ApiRepositories",
-        "projectPath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiRepositories\\ApiRepositories.csproj",
-        "packagesPath": "C:\\Users\\MetricaAndina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiRepositories\\obj\\",
+        "projectPath": "C:\\Repositorio UPN\\esaservice\\ApiRepositories\\ApiRepositories.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositorio UPN\\esaservice\\ApiRepositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MetricaAndina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,14 +96,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiModel\\ApiModel.csproj": {
-                "projectPath": "C:\\Users\\MetricaAndina\\Desktop\\esaservice\\ApiModel\\ApiModel.csproj"
+              "C:\\Repositorio UPN\\esaservice\\ApiModel\\ApiModel.csproj": {
+                "projectPath": "C:\\Repositorio UPN\\esaservice\\ApiModel\\ApiModel.csproj"
               }
             }
           }
@@ -132,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

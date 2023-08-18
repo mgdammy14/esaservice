@@ -36,3 +36,22 @@ C:\Users\MetricaAndina\Desktop\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiB
 C:\Users\MetricaAndina\Desktop\esaservice\ApiBusinessLogic\obj\Debug\net6.0\refint\ApiBusinessLogic.dll
 C:\Users\MetricaAndina\Desktop\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiBusinessLogic.pdb
 C:\Users\MetricaAndina\Desktop\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ref\ApiBusinessLogic.dll
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\bin\Debug\net6.0\ApiBusinessLogic.deps.json
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\bin\Debug\net6.0\ApiBusinessLogic.dll
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\bin\Debug\net6.0\ApiBusinessLogic.pdb
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\bin\Debug\net6.0\ApiModel.dll
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\bin\Debug\net6.0\ApiRepositories.dll
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\bin\Debug\net6.0\ApiUnitOfWork.dll
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\bin\Debug\net6.0\ApiUnitOfWork.pdb
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\bin\Debug\net6.0\ApiModel.pdb
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\bin\Debug\net6.0\ApiRepositories.pdb
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiBusinessLogic.csproj.AssemblyReference.cache
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiBusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiBusinessLogic.AssemblyInfoInputs.cache
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiBusinessLogic.AssemblyInfo.cs
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiBusinessLogic.csproj.CoreCompileInputs.cache
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiBusinessLogic.csproj.CopyComplete
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiBusinessLogic.dll
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\refint\ApiBusinessLogic.dll
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ApiBusinessLogic.pdb
+C:\Repositorio UPN\esaservice\ApiBusinessLogic\obj\Debug\net6.0\ref\ApiBusinessLogic.dll

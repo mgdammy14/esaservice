@@ -36,3 +36,22 @@ C:\Users\MetricaAndina\Desktop\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiData
 C:\Users\MetricaAndina\Desktop\esaservice\ApiDataAccess\obj\Debug\net6.0\refint\ApiDataAccess.dll
 C:\Users\MetricaAndina\Desktop\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiDataAccess.pdb
 C:\Users\MetricaAndina\Desktop\esaservice\ApiDataAccess\obj\Debug\net6.0\ref\ApiDataAccess.dll
+C:\Repositorio UPN\esaservice\ApiDataAccess\bin\Debug\net6.0\ApiDataAccess.deps.json
+C:\Repositorio UPN\esaservice\ApiDataAccess\bin\Debug\net6.0\ApiDataAccess.dll
+C:\Repositorio UPN\esaservice\ApiDataAccess\bin\Debug\net6.0\ApiDataAccess.pdb
+C:\Repositorio UPN\esaservice\ApiDataAccess\bin\Debug\net6.0\ApiModel.dll
+C:\Repositorio UPN\esaservice\ApiDataAccess\bin\Debug\net6.0\ApiRepositories.dll
+C:\Repositorio UPN\esaservice\ApiDataAccess\bin\Debug\net6.0\ApiUnitOfWork.dll
+C:\Repositorio UPN\esaservice\ApiDataAccess\bin\Debug\net6.0\ApiRepositories.pdb
+C:\Repositorio UPN\esaservice\ApiDataAccess\bin\Debug\net6.0\ApiUnitOfWork.pdb
+C:\Repositorio UPN\esaservice\ApiDataAccess\bin\Debug\net6.0\ApiModel.pdb
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiDataAccess.csproj.AssemblyReference.cache
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiDataAccess.AssemblyInfoInputs.cache
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiDataAccess.AssemblyInfo.cs
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiDataAccess.csproj.CoreCompileInputs.cache
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiDataAccess.csproj.CopyComplete
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiDataAccess.dll
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\refint\ApiDataAccess.dll
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\ApiDataAccess.pdb
+C:\Repositorio UPN\esaservice\ApiDataAccess\obj\Debug\net6.0\ref\ApiDataAccess.dll

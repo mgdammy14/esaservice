@@ -3,12 +3,16 @@ using ApiBusinessLogic.Implementation.Encuesta;
 using ApiBusinessLogic.Implementation.Master;
 using ApiBusinessLogic.Implementation.Periodo;
 using ApiBusinessLogic.Implementation.Poblacion;
+using ApiBusinessLogic.Implementation.Resultado;
 using ApiBusinessLogic.Implementation.TipoEncuesta;
+using ApiBusinessLogic.Implementation.Usuario;
 using ApiBusinessLogic.Interfaces.Encuesta;
 using ApiBusinessLogic.Interfaces.Master;
 using ApiBusinessLogic.Interfaces.Periodo;
 using ApiBusinessLogic.Interfaces.Poblacion;
+using ApiBusinessLogic.Interfaces.Resultado;
 using ApiBusinessLogic.Interfaces.TipoEncuesta;
+using ApiBusinessLogic.Interfaces.Usuario;
 using ApiDataAccess.General;
 using ApiUnitOfWork.General;
 using Microsoft.AspNetCore.Builder;
@@ -48,6 +52,8 @@ namespace WebApi
             services.AddScoped<IPeriodoLogic, PeriodoLogic>();
             services.AddScoped<IEncuestaLogic, EncuestaLogic>();
             services.AddScoped<IMasterLogic, MasterLogic>();
+            services.AddScoped<IResultadoLogic, ResultadoLogic>();
+            services.AddScoped<IUsuarioLogic, UsuarioLogic>();
 
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
                     Configuration.GetConnectionString("develop-azure")

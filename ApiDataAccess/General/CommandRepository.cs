@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using ApiModel.Encuestas;
 using ApiModel.TipoEncuesta;
 using System.Text.Json;
+using ApiModel.Resultados;
 
 namespace ApiDataAccess.General
 {
@@ -86,6 +87,74 @@ namespace ApiDataAccess.General
 
                 connection.Execute(
                     "PA_ESA_INSERT_ENCUESTA",
+                    parameters,
+                    commandType: CommandType.StoredProcedure);
+
+                int successValue = parameters.Get<int>("@Success");
+                return successValue == 1;
+            }
+        }
+
+        public bool ClonarEncuesta(EncuestaClonacion encuesta)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                var parameters = new DynamicParameters();
+                parameters.Add("@IdEncuesta", encuesta.IdEncuesta);
+                parameters.Add("@Nombre", encuesta.Nombre);
+                parameters.Add("@Descripcion", encuesta.Descripcion);
+                parameters.Add("@Periodo", encuesta.Periodo);
+                parameters.Add("@Success", dbType: DbType.Int32, direction: ParameterDirection.Output);
+
+                connection.Execute(
+                    "PA_ESA_CLONAR_ENCUESTA",
+                    parameters,
+                    commandType: CommandType.StoredProcedure);
+
+                int successValue = parameters.Get<int>("@Success");
+                return successValue == 1;
+            }
+        }
+
+        public bool ResetearEncuestaUsuario(EncuestaReseteoUsuario encuestaReseteoUsuario)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                var parameters = new DynamicParameters();
+                parameters.Add("@IdEncuestaUsuario", encuestaReseteoUsuario.IdEncuestaUsuario);
+                parameters.Add("@Success", dbType: DbType.Int32, direction: ParameterDirection.Output);
+
+                connection.Execute(
+                    "PA_ESA_RESETEO_ENCUESTA_USUARIO",
+                    parameters,
+                    commandType: CommandType.StoredProcedure);
+
+                int successValue = parameters.Get<int>("@Success");
+                return successValue == 1;
+            }
+        }
+
+        public bool RegistrarEncuesta(ApiModel.Usuarios.EncuestaRespuestaUsuario encuestaUsuario)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                var parameters = new DynamicParameters();
+                parameters.Add("@IdEncuesta", encuestaUsuario.IdEncuesta);
+                parameters.Add("@IdEncuestaUsuario", encuestaUsuario.IdEncuestaUsuario);
+                parameters.Add("@IdUsuario", encuestaUsuario.IdUsuario);
+                parameters.Add("@IdCurso", encuestaUsuario.IdCurso);
+                parameters.Add("@IdEvaluado", encuestaUsuario.IdEvaluado);
+                parameters.Add("@PreguntaRespuestaJson", JsonSerializer.Serialize(encuestaUsuario.EncuestaRespuestaPregunta));
+                parameters.Add("@Success", dbType: DbType.Int32, direction: ParameterDirection.Output);
+
+                connection.Execute(
+                    "PA_ESA_REGISTRAR_ENCUESTA_USUARIO",
                     parameters,
                     commandType: CommandType.StoredProcedure);
 

@@ -1,5 +1,6 @@
 ﻿using ApiBusinessLogic.Interfaces.Encuesta;
 using ApiModel.Encuestas;
+using ApiModel.Poblacion;
 using ApiUnitOfWork.General;
 using System;
 using System.Collections.Generic;
@@ -61,6 +62,30 @@ namespace ApiBusinessLogic.Implementation.Encuesta
                 return _unitOfWork.IQuery.GetAllEncuesta(encuestaFilter);
             }
             catch(Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public bool ClonarEncuesta(EncuestaClonacion encuesta)
+        {
+            try
+            {
+                return _unitOfWork.ICommand.ClonarEncuesta(encuesta);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<ApiModel.Poblacion.Poblacion> GetPoblacion(PoblacionFilter filter)
+        {
+            try
+            {
+                return _unitOfWork.IQuery.GetPoblacion(filter);
+            }
+            catch (Exception e)
             {
                 throw e;
             }

@@ -1,6 +1,7 @@
 ﻿using ApiBusinessLogic.Interfaces.Encuesta;
 using ApiBusinessLogic.Interfaces.Poblacion;
 using ApiModel.Encuestas;
+using ApiModel.Poblacion;
 using ApiModel.ResponseDTO.General;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -76,6 +77,40 @@ namespace WebApi.Controllers
             try
             {
                 var response = _responseDTO.Success(_responseDTO, _logic.GetAllEncuesta(encuestaFilter));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost]
+        [Route("clonar")]
+        public IActionResult ClonarEncuesta([FromBody] EncuestaClonacion encuesta)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.ClonarEncuesta(encuesta));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost]
+        [Route("poblacion")]
+        public IActionResult PoblacionEncuesta([FromBody] PoblacionFilter filter)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.GetPoblacion(filter));
                 return Ok(response);
             }
             catch (Exception e)

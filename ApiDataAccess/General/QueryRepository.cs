@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ApiModel.Encuestas;
 using ApiModel.Masters;
+using ApiModel.Resultados;
 
 namespace ApiDataAccess.General
 {
@@ -114,6 +115,89 @@ namespace ApiDataAccess.General
 
                 return connection.Query<EncuestaDTO>(
                     "PA_ESA_GET_LIST_ENCUESTA",
+                    parameters,
+                    commandType: CommandType.StoredProcedure)
+                    .ToList();
+            }
+        }
+
+        public List<Poblacion> GetPoblacion(PoblacionFilter filter)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                var parameters = new DynamicParameters();
+                parameters.Add("@Periodo", filter.Periodo);
+                parameters.Add("@Programa", filter.Programa);
+                parameters.Add("@Modalidad", filter.Modalidad);
+                parameters.Add("@Sede", filter.Sede);
+                parameters.Add("@Facultad", filter.Facultad);
+                parameters.Add("@Carrera", filter.Carrera);
+                parameters.Add("@Curso", filter.Curso);
+                parameters.Add("@Pagina", filter.Pagina);
+                parameters.Add("@Tamanio", filter.Tamanio);
+
+                return connection.Query<Poblacion>(
+                    "PA_ESA_GET_POBLACION",
+                    parameters,
+                    commandType: CommandType.StoredProcedure)
+                    .ToList();
+            }
+        }
+
+        public List<EncuestaResultado> GetAllResultado(EncuestaResultadoFilter filter)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                var parameters = new DynamicParameters();
+                parameters.Add("@Periodo", filter.Periodo);
+                parameters.Add("@Programa", filter.Programa);
+                parameters.Add("@IdEncuesta", filter.IdEncuesta);
+                parameters.Add("@IdUsuario", filter.IdUsuario);
+                parameters.Add("@NombreUsuario", filter.NombreUsuario);
+                parameters.Add("@Pagina", filter.Pagina);
+                parameters.Add("@Tamanio", filter.Tamanio);
+
+                return connection.Query<EncuestaResultado>(
+                    "PA_ESA_GET_LIST_RESULTADO",
+                    parameters,
+                    commandType: CommandType.StoredProcedure)
+                    .ToList();
+            }
+        }
+        public List<ApiModel.Encuestas.EncuestaUsuario> GetEncuestaByEvaluadoAndCurso(string idUsuario, string idEvaluado, string idCurso)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                var parameters = new DynamicParameters();
+                parameters.Add("@IdUsuario", idUsuario);
+                parameters.Add("@IdEvaluado", idEvaluado);
+                parameters.Add("@IdCurso", idCurso);
+
+                return connection.Query<EncuestaUsuario>(
+                    "PA_ESA_GET_ENCUESTA_BY_IDEVALUADO_IDCURSO",
+                    parameters,
+                    commandType: CommandType.StoredProcedure)
+                    .ToList();
+            }
+        }
+
+        public List<ApiModel.Encuestas.EncuestaUsuario> GetEncuestaByIdUsuario(string idUsuario)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+
+                var parameters = new DynamicParameters();
+                parameters.Add("@IdUsuario", idUsuario);
+
+                return connection.Query<EncuestaUsuario>(
+                    "PA_ESA_GET_ENCUESTA_BY_IDUSUARIO",
                     parameters,
                     commandType: CommandType.StoredProcedure)
                     .ToList();

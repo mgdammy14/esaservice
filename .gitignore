@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/BACK-ESA/v17/.futdcache.v2
+/.vs/BACK-ESA/v17/.suo
+/ESAMicroservicesApi/obj/Debug/net6.0/ESAMicroservicesApi.assets.cache
+/ESAMicroservicesApi/obj/Debug/net6.0/ESAMicroservicesApi.GeneratedMSBuildEditorConfig.editorconfig
